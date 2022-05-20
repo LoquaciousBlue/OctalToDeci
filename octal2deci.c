@@ -8,7 +8,7 @@ int checkString(char str[], int length) {
     for(i = 0; i < length; i++) {
         if(str[i] >= 48 && str[i] <= 56) {  //48 = 0 , 56 = 8 
             continue;
-        } elsae {
+        } else {
             return 0;  // not 0-8 or non-int input 
         }
     }
